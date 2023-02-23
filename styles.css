@@ -80,3 +80,22 @@ nav ul.menu-open {
   text-decoration: none;
   cursor: pointer;
 }
+.loader {
+  border: 10px solid #f3f3f3; /* borde gris */
+  border-top: 10px solid #3498db; /* borde azul */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite; /* animación de rotación */
+  margin: auto; /* centrar horizontalmente */
+  margin-top: 50px; /* agregar margen superior */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

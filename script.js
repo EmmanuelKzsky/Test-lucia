@@ -31,3 +31,6 @@ window.addEventListener('click', (event) => {
     modal.style.display = 'none';
   }
 });
+// const loadResultsButton = modal.getElementById('results-btn');
+
+// loadResultsButton.addEventListener('click', () => {});
